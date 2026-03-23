@@ -1,4 +1,4 @@
-# CESOA Forward — Proposta de Liderança Técnica PSI-CTI 2025
+# CESOA Forward — PSI-CTI 2026 
 
 **Autor:** Grawingholt, Diogo
 **Cargo:** Gestor de TI | Especialista em IA e Data-Driven
@@ -38,7 +38,7 @@ O CESOA Forward é uma proposta de transformação digital para o crédito habit
 | Satisfação do Cliente (NPS) | 78 | 60 | 130% |
 | Conformidade ESG | 92% | 75% | 123% |
 
-## Links
+## Links - Funciona o endereco abaixo no mobile , pois a seguranca bloqueiou
 
 | Canal | Endereço |
 |-------|----------|
@@ -59,4 +59,4 @@ O CESOA Forward é uma proposta de transformação digital para o crédito habit
 
 Projeto desenvolvido para fins de avaliação no Processo Seletivo Interno da CAIXA Econômica Federal.
 
-**Grawingholt, Diogo** | 2025
+**Grawingholt, Diogo** | 2026
