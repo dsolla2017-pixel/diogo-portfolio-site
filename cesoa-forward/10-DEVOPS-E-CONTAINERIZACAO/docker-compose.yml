@@ -1,0 +1,63 @@
+# ============================================================================
+# Projeto: CESOA Forward — Excelência em Serviços Digitais CAIXA 2030
+# Autor:   Grawingholt, Diogo
+# Data:    Março 2026
+# Descrição: Orquestração de containers para execução local completa
+# ============================================================================
+
+# =============================================================================
+# CAIXA - Docker Compose para ambiente local completo
+# Orquestra API, Worker, SQL Server e emuladores Azure
+# =============================================================================
+
+version: '3.8'
+
+services:
+  # API de Cálculo PRICE
+  api:
+    build:
+      context: .
+      dockerfile: src/CreditoPrice.Api/Dockerfile
+    ports:
+      - "5100:5100"
+    environment:
+      - ASPNETCORE_URLS=http://+:5100
+      - ASPNETCORE_ENVIRONMENT=Development
+    networks:
+      - credito-network
+
+  # Worker Service
+  worker:
+    build:
+      context: .
+      dockerfile: src/CreditoPrice.Worker/Dockerfile
+    depends_on:
+      - api
+      - sqlserver
+    environment:
+      - DOTNET_ENVIRONMENT=Development
+      - ConnectionStrings__DefaultConnection=Server=sqlserver;Database=CreditoPriceDb;User Id=sa;Password={SEU_PASSWORD_AQUI};TrustServerCertificate=True
+      - PriceApi__BaseUrl=http://api:5100
+    networks:
+      - credito-network
+
+  # SQL Server para persistência
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    ports:
+      - "1433:1433"
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD={SEU_PASSWORD_AQUI}
+      - MSSQL_PID=Developer
+    volumes:
+      - sqlserver-data:/var/opt/mssql
+    networks:
+      - credito-network
+
+networks:
+  credito-network:
+    driver: bridge
+
+volumes:
+  sqlserver-data:
