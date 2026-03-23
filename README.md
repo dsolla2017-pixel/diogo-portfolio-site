@@ -1,8 +1,9 @@
-# CESOA Forward — PSI-CTI 2026 
+# CESOA Forward — PSI CTI 2026 
 
 **Autor:** Grawingholt, Diogo
-**Cargo:** Gestor de TI | Especialista em IA e Data-Driven
-**Certificações:** Microsoft, IBM, CIA
+**Cargo:** Consultor TI | Especialista em IA e Data-Driven | Scrum | SICCR | Capitulo de Dados | Arquitetura | Comunidade de credito
+
+**Certificações:** Microsoft, IBM, CIA, SAFE , DAMA , IA , CAIXA VERSO Especialista de IA 3
 
 ## Sobre o Projeto
 
