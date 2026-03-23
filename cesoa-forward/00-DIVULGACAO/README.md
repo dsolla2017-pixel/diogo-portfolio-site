@@ -2,27 +2,38 @@
 
 **Autor:** Grawingholt, Diogo
 
-Apresentação executiva de 3 slides para divulgação do projeto CESOA Forward — Transformação Digital CAIXA 2030.
+Material de divulgação do projeto CESOA Forward — Transformação Digital CAIXA 2030.
 
-## Conteúdo
+## Apresentações Disponíveis
+
+### Versão Executiva (3 slides)
+Apresentação enxuta para divulgação rápida. Ideal para compartilhar em reuniões de 5 minutos.
 
 | Slide | Arquivo | Tema |
 |-------|---------|------|
-| 01 | slide_01_dor.webp | A Dor: 150M de brasileiros, sistemas legados, 24h de atraso |
+| 01 | slide_01_dor.webp | A Dor: 150M de brasileiros, sistemas legados |
 | 02 | slide_02_solucao.webp | A Solução: Clean Architecture + IA + Data Mesh |
-| 03 | slide_03_legado.webp | O Legado: ROI 340%, R$ 124M/ano, ESG integrado |
+| 03 | slide_03_legado.webp | O Legado: ROI 340%, R$ 124M/ano |
 
-## PDF Consolidado
+**PDF:** `CESOA_Forward_Divulgacao.pdf` (2,8 MB)
 
-O arquivo `CESOA_Forward_Divulgacao.pdf` contém os 3 slides em formato PDF para impressão e envio.
+### Versão Detalhada (10 slides)
+Apresentação completa para avaliadores e stakeholders. Cobre toda a jornada do projeto com profundidade técnica.
 
-## Narrativa
+| Slide | Arquivo | Tema |
+|-------|---------|------|
+| 01 | 10slides_capa.webp | Capa: CESOA Forward — PSI-CTI |
+| 02 | 10slides_cenario.webp | O Cenário: 24h de atraso, NPS < 60 |
+| 03 | 10slides_visao.webp | Modelo Operativo Digital CAIXA 2030 |
+| 04 | 10slides_arquitetura.webp | Clean Architecture em 4 Camadas |
+| 05 | 10slides_motor.webp | Motor Price/SAC/SACRE: 500 contratos/hora |
+| 06 | 10slides_ia.webp | IA em 3 Camadas: 94,2% acurácia |
+| 07 | 10slides_dados.webp | Pipeline Medallion + Data Mesh |
+| 08 | 10slides_painel.webp | Painel Interativo planodgrstransformador.org |
+| 09 | 10slides_esg.webp | ESG: R$ 12,4 Bi crédito verde |
+| 10 | 10slides_legado.webp | Legado: ROI 340%, 5 produtos replicáveis |
 
-**Início (Slide 1):** Apresenta a dor real — sistemas fragmentados com 24h de atraso, dados em silos com 72h de defasagem, scoring lento e NPS abaixo de 60.
-
-**Meio (Slide 2):** Apresenta a solução técnica — Motor Price com 500 contratos/hora, IA com 94,2% de acurácia, Pipeline Medallion com Fabric e governança LGPD by Design.
-
-**Fim (Slide 3):** Apresenta o legado mensurável — ROI de 340%, economia de R$ 124M/ano, ESG com R$ 12,4 Bi em crédito verde, arquitetura replicável para 5 produtos.
+**PDF:** `CESOA_Forward_Detalhada_10slides.pdf` (8,5 MB)
 
 ## Links
 
